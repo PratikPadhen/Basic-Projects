@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+.download-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.download-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.download-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.download-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.version-section {
+    text-align: center;
+}
+
+.version-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.language-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.language {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+}
+
+.language h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.language a {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+}
